@@ -65,7 +65,42 @@ body {
   background-color: green;
   color: white;
 }
-
+.update-button {
+  position: absolute;
+  top: 85px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+}
+.update-button:hover {
+  background-color: green;
+  color: white;
+}
+.add-button {
+  text-align: center;
+  margin: 0 auto;
+  width: 20%;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+}
+.add-button:hover {
+  background-color: green;
+  color: white;
+}
+.remove-button {
+  position: absolute;
+  top: 145px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+}
+.remove-button:hover {
+  background-color: green;
+  color: white;
+}
 .home-button {
   padding: 5px 10px;
   background-color: lightskyblue;
